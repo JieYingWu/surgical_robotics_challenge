@@ -16,7 +16,7 @@ Lets call the root of this repo as
 
 ```
 cd <ambf_bin>
-./ambf_simulator --launch_file <surgical_robotics_challenge>/ADF/launch.yaml -l 0,1,2,3,4,5,6
+./ambf_simulator --launch_file <surgical_robotics_challenge>/ADF/launch.yaml -l 0,1,2,3,4,6,7,11
 ```
 
 You should see two PSMs, a sad needle, a table, and a Gynae mesh.
