@@ -1,5 +1,7 @@
 ### How to Run
 
+Dependencies - Python 2.7, ROS 
+
 1. Clone, build and source AMBF's `feat-communication` branch.
 
 https://github.com/WPI-AIM/ambf/tree/feat-communication
@@ -9,6 +11,8 @@ Lets call the root of this repo as
 `<surgical_robotics_challenge>`
 
 3. Now run AMBF with the launch file and ADFs from this repo as:
+
+3.a In a separate terminal, run `roscore`
 
 ```
 cd <ambf_bin>
