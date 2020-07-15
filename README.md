@@ -29,3 +29,8 @@ python testIK.py
 You should see GUI's with sliders to control the Pose of each PSM using IK.
 Move around the PSMs and try to pick the needle. To see how to programmatically
 control the PSMs and pick the needle using sensor/constraints, look at the `testIK.py` code.
+
+### Debugging
+
+- If you get YAML compilation errors, make sure you checked out the correct branch of AMBF
+- If you don't see the meshes and instead, see white where they should be, and get errors about shaders, disable shaders in appropriate yaml files. 
